@@ -44,7 +44,7 @@ https://user-images.githubusercontent.com/82541529/167948125-b93ff516-79d6-40f1-
 
 ## Clone this repository
 ```bash
-$ https://github.com/thomascostta/New_TodoList.git
+$ https://github.com/thomascostta/TodoAppPWI.git
 ```
 ## Go into the repository
 ```bash
