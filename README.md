@@ -18,13 +18,7 @@
 
 Manutenibilidade e extensibilidade? Arquitetura e Design?
 - Utilizei os princípios do conceito SOLID, principalmente das 2 primeiras letras, do Single Responsibility (Princípio da Responsabilidade Única), deixando os componentes isolados facilitando assim a realização de testes, reusabilidade e caso aparece algum bug, fica mais fácil para isolar e achar o problema e o segundo conceito do Open/Closed (Princípio do Aberto/Fechado), que deve ser capaz de estender um comportamento do componente, sem modificá-lo. Utilizei a lib Redux na versão mais recente Toolkit para fazer o gerenciamento de estado, deixando o hook useState apenas estado local e o Redux para estado global. No projeto criei uma pasta `commom` com componentes reutilizáveis em diversos locais do app, pasta `component` com seus respectivos componentes, pasta `page` deixando a Home que futuramente pode ser ampliada/implantada outras pages ou utilizando o React-Navigation caso queira e a pasta `Redux` com o gerenciamento de estado. 
-
-Todos os requisitos foram implementados na solução entregue?
-
-- TypeScript: Apesar de ter conhecimento em TypeScript, segue alguns projetos em meu do meu repositório:  [Clone_Instagram_TS](https://github.com/thomascostta/Clone_Instagram_TS/ "Clone_Instagram_TS") e [Decode_Save_Pass](https://github.com/thomascostta/decode-save-pass "Decode_Save_Pass"),   não implantei pois tenho algumas dúvidas na implantação do TS com Redux, resolvendo assim fazer apenas com JS.
-
-- Testes unitários: Devido ao uso do Redux Toolkit, não consegui implementar os testes unitários, utilizando o Jest, pois na implantação dos testes é acusado um erro do Provider/Redux impedindo no prosseguimento do teste e pela questão do tempo não consegui prosseguir pois não achei solução até o momento, mas tenho conhecimento em testes.
-
+- 
 
 ### Libs utilizadas: 
   - Redux Toolkit
