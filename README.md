@@ -38,31 +38,36 @@ https://user-images.githubusercontent.com/82541529/167948125-b93ff516-79d6-40f1-
 
 ## Clone this repository
 ```bash
-$ https://github.com/thomascostta/TodoAppPWI.git
+$ git clone https://github.com/thomascostta/App_Salao_de_Beleza.git
 ```
-## Go into the repository
-```bash
-$ cd ToDoListPWI
-```
+
 ## Install the dependencies
 `npm i` or `yarn`
 
 ## Start your Metro server:
-```bash
-npx react-native start
-```
+`npx react-native start`
 
 ## Run :iphone:
 Run the application (Android)
-```bash
-$ react-native run-android
-```
-Run the application (iOS)
-```bash
-$ react-native run-ios --simulator="iPhone XS Max"
-```
 
-## :handshake:
+`react-native run-android`
+
+Run the application (iOS)
+
+`react-native run-ios --simulator="iPhone model"`
+
+---
+
+# How to contribute :gear:
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
+
+---
+
+
+Edição realizada com ❤️ por Thomas Costa 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Thomas-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/thomasjeffcosta/) 
 [![Gmail Badge](https://img.shields.io/badge/-thomas.jeffcosta@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:thomas.jeffcosta@gmail.com)](mailto:thomas.jeffcosta@gmail.com)
