@@ -38,7 +38,7 @@ https://user-images.githubusercontent.com/82541529/167948125-b93ff516-79d6-40f1-
 
 ## Clone this repository
 ```bash
-$ git clone https://github.com/thomascostta/App_Salao_de_Beleza.git
+$ git clone https://github.com/thomascostta/TodoAppPWI.git
 ```
 
 ## Install the dependencies
