@@ -13,12 +13,9 @@
 ---------------------------
 
 ## Overview :book:
-  
-### Segue as respostas:
 
-Manutenibilidade e extensibilidade? Arquitetura e Design?
+Manutenibilidade e extensibilidade - Arquitetura e Design.
 - Utilizei os princípios do conceito SOLID, principalmente das 2 primeiras letras, do Single Responsibility (Princípio da Responsabilidade Única), deixando os componentes isolados facilitando assim a realização de testes, reusabilidade e caso aparece algum bug, fica mais fácil para isolar e achar o problema e o segundo conceito do Open/Closed (Princípio do Aberto/Fechado), que deve ser capaz de estender um comportamento do componente, sem modificá-lo. Utilizei a lib Redux na versão mais recente Toolkit para fazer o gerenciamento de estado, deixando o hook useState apenas estado local e o Redux para estado global. No projeto criei uma pasta `commom` com componentes reutilizáveis em diversos locais do app, pasta `component` com seus respectivos componentes, pasta `page` deixando a Home que futuramente pode ser ampliada/implantada outras pages ou utilizando o React-Navigation caso queira e a pasta `Redux` com o gerenciamento de estado. 
-- 
 
 ### Libs utilizadas: 
   - Redux Toolkit
@@ -55,14 +52,6 @@ Run the application (Android)
 Run the application (iOS)
 
 `react-native run-ios --simulator="iPhone model"`
-
----
-
-# How to contribute :gear:
-- Fork this repository;
-- Create a branch with your feature: `git checkout -b my-feature`;
-- Commit your changes: `git commit -m 'feat: My new feature'`;
-- Push to your branch: `git push origin my-feature`.
 
 ---
 
